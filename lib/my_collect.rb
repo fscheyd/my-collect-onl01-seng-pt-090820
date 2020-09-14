@@ -5,6 +5,7 @@ def my_collect(names)
   names.each do |name|
    binding.pry
     yield(name)
+      
   end
 end
 
