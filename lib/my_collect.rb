@@ -1,7 +1,6 @@
 def my_collect(names)
   new_array = []
-  names.collect do
-    names.split(" ").first
+  names.each do |element|
     yield
   end
 end
