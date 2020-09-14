@@ -6,5 +6,6 @@ def my_collect(names)
    binding.pry
       new_array.push(yield(name))
   end
+  new_array
 end
 
