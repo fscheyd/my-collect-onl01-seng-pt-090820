@@ -1,5 +1,5 @@
 def my_collect(names)
-  names = []
+  new_array = []
   names.collect do
     names.split(" ").first
     yield
